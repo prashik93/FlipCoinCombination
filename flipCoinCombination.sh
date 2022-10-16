@@ -1,4 +1,4 @@
-##! /bin/bash/ -x
+#! /bin/bash/ -x
 
 echo "Welcome to Flip coin combination"
 
@@ -154,6 +154,12 @@ echo "Doublet dictionary HH Count :- ${doubletDictionary["HH"]}"
 echo "Doublet dictionary HT Count :- ${doubletDictionary["HT"]}"
 echo "Doublet dictionary TH Count :- ${doubletDictionary["TH"]}"
 echo "Doublet dictionary TT Count :- ${doubletDictionary["TT"]}"
+
+echo "HH Count Percentages :- $countPercentage_HH %"
+echo "HT Count Percentages :- $countPercentage_HT %"
+echo "TH Count Percentages :- $countPercentage_TH %"
+echo "TT Count Percentages :- $countPercentage_TT %"
+
 echo "Doublet dictionary Keys :- ${!doubletDictionary[@]}"
 echo "Doublet dictionary Values :- ${doubletDictionary[@]}"
 
@@ -167,6 +173,16 @@ echo "Triplet dictionary TTH Count :- ${tripletDictionary["TTH"]}"
 echo "Triplet dictionary THT Count :- ${tripletDictionary["THT"]}"
 echo "Triplet dictionary HTT Count :- ${tripletDictionary["HTT"]}"
 echo "Triplet dictionary THH Count :- ${tripletDictionary["THH"]}"
+
+echo "HHH Count Percentages :- $countPercentage_HHH %"
+echo "HTH Count Percentages :- $countPercentage_HTH %"
+echo "HHT Count Percentages :- $countPercentage_HHT %"
+echo "TTT Count Percentages :- $countPercentage_TTT %"
+echo "TTH Count Percentages :- $countPercentage_TTH %"
+echo "THT Count Percentages :- $countPercentage_THT %"
+echo "HTT Count Percentages :- $countPercentage_HTT %"
+echo "THH Count Percentages :- $countPercentage_THH %"
+
 echo "Triplet dictionary Keys :- ${!tripletDictionary[@]}"
 echo "Triplet dictionary Values :- ${tripletDictionary[@]}"
 
